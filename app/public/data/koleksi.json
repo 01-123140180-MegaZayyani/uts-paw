@@ -1,10 +1,91 @@
 [
   {
-    "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "id": "01",
+    "judul": "The Psychology of Money",
+    "kategori": "Keuangan",
+    "penulis": "Morgan Housel",
+    "tahunTerbit": 2020,
+    "status": "Ingin Dibeli"
+  },
+
+  {
+    "id": "02",
+    "judul": "The 48 Laws of Power",
+    "kategori": "Pengembanagn Diri",
+    "penulis": "Robert Greene",
+    "tahunTerbit": 1998,
+    "status": "Ingin Dibeli"
+  },
+
+  {
+    "id": "03",
+    "judul": "the art of loneliness",
+    "kategori": "Pengembangan Diri",
+    "penulis": "Han Dosan",
+    "tahunTerbit": 2023,
+    "status": "Sedang Dibaca"
+  },
+
+  {
+    "id": "04",
+    "judul": "Ngapain Jadi Orang Baik",
+    "kategori": "Pengembangan Diri",
+    "penulis": "Michael Schur",
+    "tahunTerbit": 2022,
+    "status": "Dimiliki"
+  },
+
+  {
+    "id": "05",
+    "judul": "Badan Intelijen Sekolah",
+    "kategori": "Novel",
+    "penulis": "Intan Tanzs",
+    "tahunTerbit": 2024,
+    "status": "Ingin Dibeli"
+  },
+
+  {
+    "id": "06",
+    "judul": "Crank Palace",
+    "kategori": "Novel",
+    "penulis": "James Dashner",
+    "tahunTerbit": 2020,
+    "status": "Ingin Dibeli"
+  },
+
+  {
+    "id": "07",
+    "judul": "Death on the Nile",
+    "kategori": "Novel",
+    "penulis": "Agatha Christie",
+    "tahunTerbit": 1937,
+    "status": "Ingin Dibeli"
+  },
+
+  {
+    "id": "08",
+    "judul": "Sweet Like Acai Bowl",
+    "kategori": "Novel",
+    "penulis": "Jue Jue",
+    "tahunTerbit": 2026,
+    "status": "Dimiliki"
+  },
+
+  {
+    "id": "09",
+    "judul": "Civil War",
+    "kategori": "Komik",
+    "penulis": "Mark Millar",
+    "tahunTerbit": 2006,
+    "status": "Ingin Dibeli"
+  },
+
+  {
+    "id": "10",
+    "judul": "Me VS Big Slacker Baby",
+    "kategori":"Komik",
+    "penulis": "Annisa Nisfihani",
+    "tahunTerbit": 2015,
+    "status": "Ingin Dibeli"
   }
 ]
