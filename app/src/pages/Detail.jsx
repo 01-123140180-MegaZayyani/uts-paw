@@ -1,5 +1,6 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
+import TombolAksi from '../components/TombolAksi.jsx'
 
 export default function Detail() {
   const { id } = useParams()
@@ -38,10 +39,9 @@ export default function Detail() {
         <dd>{item.status}</dd>
       </dl>
       <div className="aksi">
-        <button type="button" onClick={konfirmasiHapus}>
+        <TombolAksi type="button" onClick={konfirmasiHapus}>
           Hapus
-        </button>
-        <Link to="/koleksi">Kembali</Link>
+        </TombolAksi>
       </div>
     </section>
   )

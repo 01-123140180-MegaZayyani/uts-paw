@@ -34,7 +34,7 @@ Terapkan keempatnya pada setiap jawaban yang berisi kode untuk soal ini.
 3. Clone fork, kerjakan soal di folder `app/`:
 
    ```bash
-   git clone https://github.com/USERNAME/uts-paw.git
+   git clone https://01-123140180-megazayyani.github.io/uts-paw/
    cd uts-paw/app
    npm install
    npm run dev
@@ -62,20 +62,24 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 
 Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
 
-```markdown
-# Nama Aplikasi
+# Rak Buku Pribadi
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+Nama: Mega Zayyani
+NIM: 123140180
+Kelas: RB
+Tema: Rak Buku Pribadi
+Deployment: https://01-123140180-megazayyani.github.io/uts-paw/
 
-![Tangkapan layar beranda](docs/beranda.png)
+![Tangkapan layar beranda](app\src\docs\beranda.png)
 
 ## Fitur
 
-- ...
+- Tambah buku
+- Edit Buku
+- Filter Buku
+- Statistik Daftar Buku
+- Halaman tidak ditemukan
+- Card dari setiap buku
 
 ## Menjalankan secara lokal
 
@@ -85,5 +89,5 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
-```
+- Komponen dalam aplikasi ini untuk memecah fungsi seperti filter, item (atau card), dan edit buku. sehingga lebih mudah untuk diedit
+- State merupakan perubahan pada data. pada proyek ini digunakan seperti onstate untuk perubahan kondisi atau state awal

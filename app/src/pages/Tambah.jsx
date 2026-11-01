@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
+import TombolAksi from '../components/TombolAksi.jsx'
 import './Tambah.css'
 
 const AWAL = { judul: '', kategori: 'Kategori', penulis: '', tahunTerbit: '2005', status: 'Ingin Dimiliki' }
@@ -24,9 +25,15 @@ export default function Tambah() {
     console.log('Data yang akan disimpan:', form)
   }
 
+  const konfirmasiBatal =( ) => {
+    if (window.confirm(`Batal menambahkan buku "${form.judul}"? (Buku tidak akan tersimpan)`)) {
+      navigate('/koleksi')
+    }
+  }
+
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
-      <h1>Tambah Tugas</h1>
+      <h1>Tambah Buku</h1>
 
       <label htmlFor="judul">Judul</label>
       <input id="judul" name="judul" value={form.judul} onChange={ubah} />
@@ -53,7 +60,10 @@ export default function Tambah() {
         <option value="inginDibeli">Ingin Dibeli</option>
       </select> 
 
-      <button type="submit">Simpan</button>
+      <TombolAksi type="submit">Simpan</TombolAksi>
+      <TombolAksi type="button" onClick={konfirmasiBatal}>
+        Batal
+      </TombolAksi>
       <p>Isi state saat ini: {JSON.stringify(form)}</p>
     </form>
   )
