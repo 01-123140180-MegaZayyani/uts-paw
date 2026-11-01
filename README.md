@@ -10,7 +10,7 @@ Tema: Rak Buku Pribadi
 
 Deployment: https://01-123140180-megazayyani.github.io/uts-paw/
 
-![Tangkapan layar beranda](app\src\docs\beranda.png)
+![Tangkapan layar beranda](app/src/docs/beranda.png)
 
 ## Fitur
 
