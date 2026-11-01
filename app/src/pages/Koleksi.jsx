@@ -15,7 +15,7 @@ export default function Koleksi() {
   const tampil = items.filter(
     (item) =>
       item.judul.toLowerCase().includes(cari.toLowerCase()) &&
-      (kategori === 'Kategori' || item.kategori === kategori),
+      (kategori === 'Semua' || item.kategori === kategori),
   )
 
   return (
