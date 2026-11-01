@@ -1,9 +1,13 @@
 # Rak Buku Pribadi
 
 Nama: Mega Zayyani
+
 NIM: 123140180
+
 Kelas: RB
+
 Tema: Rak Buku Pribadi
+
 Deployment: https://01-123140180-megazayyani.github.io/uts-paw/
 
 ![Tangkapan layar beranda](app\src\docs\beranda.png)
@@ -19,9 +23,11 @@ Deployment: https://01-123140180-megazayyani.github.io/uts-paw/
 
 ## Menjalankan secara lokal
 
+```
 cd app
 npm install
 npm run dev
+```
 
 ## Konsep React yang dipakai
 
